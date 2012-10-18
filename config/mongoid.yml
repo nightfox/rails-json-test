@@ -1,3 +1,10 @@
+defaults: &defaults
+  allow_dynamic_fields: false
+  identity_map_enabled: false
+  use_activesupport_time_zone: true
+  preload_models: true
+
+
 development:
   host: localhost
   database: directory_app_development
@@ -7,14 +14,6 @@ test:
   database: directory_app_test
 
 # set these environment variables on your prod server
-production:
-  host: <%= ENV['MONGOID_HOST'] %>
-  port: <%= ENV['MONGOID_PORT'] %>
-  username: <%= ENV['MONGOID_USERNAME'] %>
-  password: <%= ENV['MONGOID_PASSWORD'] %>
-  database: <%= ENV['MONGOID_DATABASE'] %>
-  # slaves:
-  #   - host: slave1.local
-  #     port: 27018
-  #   - host: slave2.local
-  #     port: 27019
+production: &production
+  <<: *defaults
+  uri: <%= ENV['MONGOLAB_URI'] %>

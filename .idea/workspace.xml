@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13f29032-03c0-4e92-a490-d20705e86142" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/directory-app.iml" afterPath="$PROJECT_DIR$/.idea/directory-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mongoid.yml" afterPath="$PROJECT_DIR$/config/mongoid.yml" />
     </list>
     <ignored path="directory-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,19 +30,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="38" selection-end="38" vertical-scroll-proportion="0.05319149">
+            <state line="2" column="7" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mongoid.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mongoid.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+            <state line="18" column="24" selection-start="385" selection-end="385" vertical-scroll-proportion="0.4787234">
               <folding />
             </state>
           </provider>
@@ -54,7 +52,9 @@
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="14" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1350574993000" expanded="true" signature="307:647" placeholder=" ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +106,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/user_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/mongoid.yml" />
       </list>
     </option>
   </component>
@@ -554,7 +555,9 @@
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="105" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1350574993000" expanded="true" signature="307:647" placeholder=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,17 +594,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="14" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1350574993000" expanded="true" signature="307:647" placeholder=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -614,7 +612,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="38" selection-end="38" vertical-scroll-proportion="0.05319149">
+        <state line="2" column="7" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="24" selection-start="385" selection-end="385" vertical-scroll-proportion="0.4787234">
           <folding />
         </state>
       </provider>
